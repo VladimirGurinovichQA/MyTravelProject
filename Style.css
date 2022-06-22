@@ -1,9 +1,217 @@
+
 body {
-    font-family: Lato, serif;
+    margin: 0;
+    padding: 0;
+
+    font-family: "Lato", "Arial", sans-serif;
+    font-size: 16.67px;
+    line-height:normal;
+    font-weight: 400;
     color: #1e1e1e;
+
+    background-color: #eae8e8;
+    background-image: url("Files/bg.jpg");
+    background-position: top center;
+    background-repeat: no-repeat;
 }
 
 h1, h2, h3 {
-    font-family: Cardo, serif;
+    font-family: "Cardo", "Tahoma", serif;
     color: #1e1e1e;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.main-navigation a {
+    font-size: 20.83px;
+    line-height: normal;
+    font-weight: 300;
+    color: #515155;
+}
+
+.main-navigation .home a{
+    font-weight: 900;
+    color: #1e1e1e;
+}
+
+.contact a {
+    font-size: 20.83px;
+    font-weight: 900;
+    line-height: normal;
+
+    border: 2px solid #1e1e1e;
+    border-radius: 3px;
+    color: #1e1e1e
+}
+
+.ticket h2 {
+    font-family: "Cardo", Tahoma, serif;
+    font-size: 81.48px;
+    line-height: 81.48px;
+    font-weight: bold;
+}
+
+.ticket a {
+    font-size: 20.83px;
+    line-height: normal;
+    font-weight: 900;
+    background-color: #1e1e1e;
+    color: #eae8e8;
+}
+
+.memory {
+    background-color: #1e1e1e;
+    background-image: url("files/bg-2.png");
+    background-repeat: no-repeat;
+}
+.memory h2 {
+    font-family: "Cardo", Tahoma, serif;
+    font-size: 55.46;
+    line-height: normal;
+    font-weight: bold;
+
+    text-align: center;
+    color: #eae8e8;
+}
+
+.memory p {
+    text-align: center;
+    color: #eae8e8;
+}
+
+.memory a {
+    font-weight: 900;
+    font-size: 20.84px;
+    line-height: normal;
+
+    border: 2px solid #eae8e8;
+    border-radius: 3px;
+    color: #eae8e8;
+}
+
+.options h3 {
+    font-size: 36.38px;
+    line-height: 36.4px;
+    font-weight: bold;
+    color: #1e1e1e;
+}
+
+.places h2 {
+    font-size: 97.7px;
+    line-height: 97.7px;
+    font-weight: bold;
+
+    text-align: center;
+}
+
+.places p {
+    font-size: 25px;
+    line-height: normal;
+    font-weight: 900;
+    color: #1e1e1e;
+    text-align: center;
+}
+
+.inner-two h3 {
+    font-size: 36.34px;
+    line-height: 50px;
+    font-weight: bold;
+}
+
+.anywhere {
+    background-color: #1e1e1e;
+}
+
+.anywhere h2 {
+    font-size: 55.44;
+    line-height: normal;
+    font-weight: bold;
+
+    
+    color: #eae8e8;
+}
+
+.anywhere h3 {
+    font-family: "Lato", Arial, serif;
+    font-size: 24.99px;
+    line-height: normal;
+    font-weight: 900;
+    color: #eae8e8;
+}
+
+.anywhere p {
+    color: #eae8e8;
+}
+
+.information h3 {
+    font-size: 81.46px;
+    line-height: 81.46px;
+    font-weight: bold;
+}
+
+.feedback h3 {
+    font-size: 81.46px;
+    line-height: 81.46px;
+    font-weight: bold;
+}
+
+.feedback-item h3 {
+    font-family: "Lato", Arial, sans-serif;
+    font-size: 24.99px;
+    line-height: normal;
+    font-weight: 900;
+
+    text-align: center;
+}
+
+.feedback-item p {
+    text-align: center;
+}
+
+
+.contact h2 {
+    font-size: 81.42px;
+    line-height: 81.42px;
+    font-weight: bold;
+}
+
+.main-footer {
+    background-color: #c5c5c5;
+}
+.main-footer .logo {
+    font-family: "Cardo", Tahoma, serif;
+    font-size: 63.34px;
+    line-height: 63.34px;
+    font-weight: bold;
+    color: #1e1e1e;
+}
+
+.main-footer h3 {
+    font-family: "Lato", Arial, sans-serif;
+    font-size: 25.04px;
+    line-height: 50.07px;
+}
+
+.main-footer a, .main-footer p {
+    font-size: 20.86px;
+    line-height: 50.07px;
+    font-weight: 400;
+    color: #1e1e1e;
+}
+.visualy-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
