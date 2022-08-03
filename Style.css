@@ -417,11 +417,16 @@ a {
 }
 
 .information-item p {
-    order: 2;    
+    order: 2;
+    transition: all ease 0.5s;
 }
 
 .information-item .button {
     position: relative;
+}
+
+.information-item .button:hover {
+    cursor: help;
 }
 
 .information-item .button::after {
@@ -441,7 +446,8 @@ a {
     content: " ";
     border: 2px solid #1e1e1e;
     width: 19px;
-    transform: rotate(90deg);
+    transform: var(--transform, rotate(90deg));
+    transition: all ease 0.5s;
 }
 
 
@@ -465,10 +471,14 @@ a {
     font-weight: bold;
 }
 
-.locked {
-    width: 495px;
+/* .locked {
     display: none;
+} */
+
+.information-item p {
+    width: 495px;
 }
+
 .feedback {
     margin-bottom: 200px;
 }
