@@ -5,7 +5,8 @@
 let offset = 0;
 const sliderLine = document.querySelector('.feedback-list'),
     nextButton = document.querySelector('.next-feedback'),
-    prevButton = document.querySelector('.prev-feedback');
+    prevButton = document.querySelector('.prev-feedback'),
+    feedbackItem = document.querySelectorAll('.feedback-item');
 
 
 nextButton.addEventListener('click', function() {
@@ -17,11 +18,11 @@ nextButton.addEventListener('click', function() {
 });
 
 prevButton.addEventListener('click', function() {
-    offset += 468;
-    if (offset > 1404) {
-        offset = 0;
+    offset -= 468;
+    if (offset < 0) {
+        offset = 1404;
     }
-    sliderLine.style.left = offset + 'px';
+    sliderLine.style.left = -offset + 'px';
 });
 
 //information. Open/close button
